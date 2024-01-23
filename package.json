@@ -20,7 +20,10 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "eslint": "eslint src/**",
+    "prettier": "prettier --write .",
+    "storybook": "sb dev"
   },
   "eslintConfig": {
     "extends": [
@@ -39,5 +42,22 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "main": "index.js",
+  "author": "Ashok <ashok.p@diagnal.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@storybook/cli": "^7.6.10",
+    "@storybook/react": "^7.6.10",
+    "@types/storybook__react": "^5.2.1",
+    "@typescript-eslint/eslint-plugin": "^6.19.1",
+    "@typescript-eslint/parser": "^6.19.1",
+    "autoprefixer": "^10.4.17",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-react": "^7.33.2",
+    "postcss": "^8.4.33",
+    "prettier": "3.2.4",
+    "tailwindcss": "^3.4.1"
   }
 }
